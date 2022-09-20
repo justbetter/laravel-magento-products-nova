@@ -10,6 +10,15 @@ Install the package.
 composer require justbetter/laravel-magento-products-nova
 ```
 
+## Versioning
+
+Our major version corresponds to the major Nova version.
+
+| Package version | Nova version |
+|-----------------|--------------|
+| `^4.0`          | `^4.0`       |
+
+
 ## Contributing
 
 Please see [CONTRIBUTING](.github/CONTRIBUTING.md) for details.
