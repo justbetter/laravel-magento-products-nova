@@ -1,0 +1,35 @@
+{
+    "name": "justbetter/laravel-magento-products-nova",
+    "description": "Nova integration for just-better/laravel-magento-products",
+    "type": "package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vincent Boon",
+            "email": "vincent@justbetter.nl",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "laravel/nova": "^4.0",
+        "justbetter/laravel-magento-products": "^1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "JustBetter\\MagentoProductsNova\\": "src"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "JustBetter\\MagentoProductsNova\\ServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
