@@ -13,7 +13,7 @@
     "require": {
         "php": "^8.0",
         "laravel/nova": "^4.0",
-        "justbetter/laravel-magento-products": "^1.2"
+        "justbetter/laravel-magento-products": "^1.0"
     },
     "autoload": {
         "psr-4": {
