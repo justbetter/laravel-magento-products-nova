@@ -1,6 +1,6 @@
 {
     "name": "justbetter/laravel-magento-products-nova",
-    "description": "Nova integration for just-better/laravel-magento-products",
+    "description": "Nova integration for justbetter/laravel-magento-products",
     "type": "package",
     "license": "MIT",
     "authors": [
