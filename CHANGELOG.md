@@ -1,6 +1,14 @@
 # Changelog 
 
-[Unreleased changes](https://github.com/justbetter/laravel-magento-products-nova/compare/4.1.0...main)
+[Unreleased changes](https://github.com/justbetter/laravel-magento-products-nova/compare/4.1.1...main)
+## [4.1.1](https://github.com/justbetter/laravel-magento-products-nova/releases/tag/4.1.1) - 2023-03-13
+
+### What's Changed
+* Add store to Nova by @VincentBean in https://github.com/justbetter/laravel-magento-products-nova/pull/3
+
+
+**Full Changelog**: https://github.com/justbetter/laravel-magento-products-nova/compare/4.1.0...4.1.1
+
 ## [4.1.0](https://github.com/justbetter/laravel-magento-products-nova/releases/tag/4.1.0) - 2023-03-10
 
 ### What's Changed
