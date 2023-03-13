@@ -37,6 +37,10 @@ class MagentoProductsResource extends Resource
             Boolean::make(__('Exists in Magento'), 'exists_in_magento')
                 ->sortable(),
 
+            Text::make(__('Store'), 'store')
+                ->readonly()
+                ->sortable(),
+
             Code::make(__('Data'), 'data')
                 ->json(),
 
@@ -60,6 +64,13 @@ class MagentoProductsResource extends Resource
             Actions\DiscoverMagentoProducts::make(),
             Actions\CheckKnownProductsExistence::make(),
             Actions\CheckAllKnownProductsExistence::make(),
+        ];
+    }
+
+    public function filters(Request $request): array
+    {
+        return [
+            Filters\StoreFilter::make(),
         ];
     }
 
