@@ -1,6 +1,12 @@
 # Changelog 
 
-[Unreleased changes](https://github.com/justbetter/laravel-magento-products-nova/compare/4.1.1...main)
+[Unreleased changes](https://github.com/justbetter/laravel-magento-products-nova/compare/4.1.2...main)
+## [4.1.2](https://github.com/justbetter/laravel-magento-products-nova/releases/tag/4.1.2) - 2023-06-15
+
+* Use Nova's action response
+
+**Full Changelog**: https://github.com/justbetter/laravel-magento-products-nova/compare/4.1.1...4.1.2
+
 ## [4.1.1](https://github.com/justbetter/laravel-magento-products-nova/releases/tag/4.1.1) - 2023-03-13
 
 ### What's Changed
