@@ -24,7 +24,7 @@ class MagentoProductsResource extends Resource
 
     public static function label(): string
     {
-        return 'Magento Products';
+        return 'Products';
     }
 
     public function fields(Request $request): array
