@@ -1,6 +1,17 @@
 # Changelog 
 
-[Unreleased changes](https://github.com/justbetter/laravel-magento-products-nova/compare/4.1.2...main)
+[Unreleased changes](https://github.com/justbetter/laravel-magento-products-nova/compare/4.2.0...main)
+## [4.2.0](https://github.com/justbetter/laravel-magento-products-nova/releases/tag/4.2.0) - 2025-02-17
+
+### What's Changed
+* Renamed resource as it usually is set in its own Magento group by @fritsjustbetter in https://github.com/justbetter/laravel-magento-products-nova/pull/5
+* Laravel 12 / Nova 5 support by @VincentBean in https://github.com/justbetter/laravel-magento-products-nova/pull/6
+
+### New Contributors
+* @fritsjustbetter made their first contribution in https://github.com/justbetter/laravel-magento-products-nova/pull/5
+
+**Full Changelog**: https://github.com/justbetter/laravel-magento-products-nova/compare/4.1.2...4.2.0
+
 ## [4.1.2](https://github.com/justbetter/laravel-magento-products-nova/releases/tag/4.1.2) - 2023-06-15
 
 * Use Nova's action response
