@@ -2,17 +2,16 @@
 
 namespace JustBetter\MagentoProductsNova;
 
-use Laravel\Nova\Nova;
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;
+use Laravel\Nova\Nova;
 
 class ServiceProvider extends BaseServiceProvider
 {
-
     public function register(): void
     {
         $this
             ->registerConfig();
-        }
+    }
 
     protected function registerConfig(): static
     {
@@ -35,7 +34,6 @@ class ServiceProvider extends BaseServiceProvider
 
         return $this;
     }
-
 
     protected function bootResources(): static
     {

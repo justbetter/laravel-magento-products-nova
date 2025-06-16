@@ -24,4 +24,3 @@ class CheckKnownProductsExistence extends Action
         return ActionResponse::message('Checking');
     }
 }
-
