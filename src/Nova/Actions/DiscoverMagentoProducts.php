@@ -16,6 +16,7 @@ class DiscoverMagentoProducts extends Action
     use Queueable;
 
     public $name = 'Discover Magento Products';
+
     public $standalone = true;
 
     public function handle(ActionFields $fields, Collection $models): ActionResponse
@@ -25,4 +26,3 @@ class DiscoverMagentoProducts extends Action
         return ActionResponse::message('Checking');
     }
 }
-

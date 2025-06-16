@@ -16,6 +16,7 @@ class CheckAllKnownProductsExistence extends Action
     use Queueable;
 
     public $name = 'Check all known products for existence';
+
     public $standalone = true;
 
     public function handle(ActionFields $fields, Collection $models): ActionResponse
@@ -25,4 +26,3 @@ class CheckAllKnownProductsExistence extends Action
         return ActionResponse::message('Checking');
     }
 }
-
