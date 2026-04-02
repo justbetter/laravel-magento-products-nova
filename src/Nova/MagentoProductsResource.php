@@ -11,7 +11,7 @@ use Laravel\Nova\Fields\Text;
 use Laravel\Nova\Resource;
 
 /**
- * @extends Resource<MagentoProduct>
+ * @extends resource<MagentoProduct>
  */
 class MagentoProductsResource extends Resource
 {
