@@ -13,13 +13,14 @@
     "require": {
         "php": "^8.3",
         "justbetter/laravel-magento-products": "^1.2",
-        "laravel/framework": "^11.0|^12.0",
+        "laravel/framework": "^12.0|^13.0",
         "laravel/nova": "^5.0"
     },
     "require-dev": {
-        "larastan/larastan": "^3.0",
-        "laravel/pint": "^1.20",
-        "orchestra/testbench": "^9.0"
+        "larastan/larastan": "^3.9",
+        "laravel/pint": "^1.29",
+        "orchestra/testbench": "^10.11|^11.0",
+        "rector/rector": "^2.4"
     },
     "autoload": {
         "psr-4": {
@@ -47,9 +48,11 @@
     "scripts": {
         "analyse": "phpstan --memory-limit=256M",
         "style": "pint --test",
+        "rector": "rector process src --dry-run",
         "quality": [
             "@style",
-            "@analyse"
+            "@analyse",
+            "@rector"
         ]
     }
 }
