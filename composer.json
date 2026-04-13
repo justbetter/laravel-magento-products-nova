@@ -19,7 +19,8 @@
     "require-dev": {
         "larastan/larastan": "^3.9",
         "laravel/pint": "^1.29",
-        "orchestra/testbench": "^10.11|^11.0"
+        "orchestra/testbench": "^10.11|^11.0",
+        "rector/rector": "^2.4"
     },
     "autoload": {
         "psr-4": {
@@ -47,9 +48,11 @@
     "scripts": {
         "analyse": "phpstan --memory-limit=256M",
         "style": "pint --test",
+        "rector": "rector process src --dry-run",
         "quality": [
             "@style",
-            "@analyse"
+            "@analyse",
+            "@rector"
         ]
     }
 }

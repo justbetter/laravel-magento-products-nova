@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace JustBetter\MagentoProductsNova\Nova;
 
 use Illuminate\Http\Request;
@@ -26,6 +28,7 @@ class MagentoProductsResource extends Resource
         'sku',
     ];
 
+    #[\Override]
     public static function label(): string
     {
         return 'Products';
@@ -62,6 +65,7 @@ class MagentoProductsResource extends Resource
         ];
     }
 
+    #[\Override]
     public function actions(Request $request): array
     {
         return [
@@ -71,6 +75,7 @@ class MagentoProductsResource extends Resource
         ];
     }
 
+    #[\Override]
     public function filters(Request $request): array
     {
         return [
@@ -78,6 +83,7 @@ class MagentoProductsResource extends Resource
         ];
     }
 
+    #[\Override]
     public static function authorizedToCreate(Request $request): bool
     {
         return false;

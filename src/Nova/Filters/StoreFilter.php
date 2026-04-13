@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace JustBetter\MagentoProductsNova\Nova\Filters;
 
 use Illuminate\Contracts\Database\Eloquent\Builder as EloquentBuilder;
@@ -15,6 +17,7 @@ class StoreFilter extends Filter
         return $query->where('store', '=', $value);
     }
 
+    #[\Override]
     public function options(NovaRequest $request): array
     {
         return MagentoProduct::query()

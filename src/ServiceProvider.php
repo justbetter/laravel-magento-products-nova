@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace JustBetter\MagentoProductsNova;
 
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;
@@ -7,6 +9,7 @@ use Laravel\Nova\Nova;
 
 class ServiceProvider extends BaseServiceProvider
 {
+    #[\Override]
     public function register(): void
     {
         $this
