@@ -1,6 +1,15 @@
 # Changelog 
 
-[Unreleased changes](https://github.com/justbetter/laravel-magento-products-nova/compare/4.2.0...main)
+[Unreleased changes](https://github.com/justbetter/laravel-magento-products-nova/compare/4.3.0...main)
+## [4.3.0](https://github.com/justbetter/laravel-magento-products-nova/releases/tag/4.3.0) - 2026-04-13
+
+### What's Changed
+* Adjust workflows by @VincentBean in https://github.com/justbetter/laravel-magento-products-nova/pull/7
+* Laravel 13 support by @VincentBean in https://github.com/justbetter/laravel-magento-products-nova/pull/8
+
+
+**Full Changelog**: https://github.com/justbetter/laravel-magento-products-nova/compare/4.2.0...4.3.0
+
 ## [4.2.0](https://github.com/justbetter/laravel-magento-products-nova/releases/tag/4.2.0) - 2025-02-17
 
 ### What's Changed
